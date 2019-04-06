@@ -1,8 +1,15 @@
 package ejercicios;
 
-public class Ejercicio20 {
+public class Ejercicio1_20 {
+	
+	// EJERCICIO 20
+	/*------------------------------------------------
+	 * Utilizando variables locales, 
+	 * realizar un programa que intercambie los valores entre 2 variables.
+	 * Mostrar los valores iniciales y los valores una vez intercambiados.
+	 *------------------------------------------------*/
 
-	Ejercicio20() {
+	Ejercicio1_20() {
 
 	}
 
@@ -28,9 +35,8 @@ public class Ejercicio20 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		Ejercicio20 obj = new Ejercicio20();
+		Ejercicio1_20 obj = new Ejercicio1_20();
 		obj.intercambio();
 
 	}

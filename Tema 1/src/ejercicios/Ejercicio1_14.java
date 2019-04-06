@@ -1,16 +1,23 @@
 package ejercicios;
 import java.util.Scanner;
-public class Ejercicio14 {
+public class Ejercicio1_14 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner teclado = new Scanner(System.in);
+		
 		// EJERCICIO 14
-				
-				 int l, perimetro; System.out.println("Ingrese el lado de un cuadro");
-				 l=teclado.nextInt(); 
-				 perimetro=l*4;
-				 System.out.println("El perímetro del cuadro es "+perimetro);
+		/*------------------------------------------------
+		 * Hallar el perímetro y el área del cuadrado
+		 *------------------------------------------------*/
+		
+		Scanner teclado = new Scanner(System.in);
+			
+		int lado, perimetro, area;
+		System.out.println("Ingrese el lado de un cuadro");
+		lado=teclado.nextInt(); 
+		perimetro=lado*4;
+		System.out.println("El perímetro del cuadro es "+perimetro);
+		area=lado*2;
+ 		System.out.println("El área del cuadro es "+area);
 				 
 
 	}

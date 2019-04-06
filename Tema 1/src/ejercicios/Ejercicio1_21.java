@@ -1,13 +1,22 @@
 package ejercicios;
 import java.util.Scanner;
-public class Ejercicio21 {
+public class Ejercicio1_21 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		// EJERCICIO 21
+		/*------------------------------------------------
+		 * Un alumno desea saber la nota final en una asignatura. 
+		 * Dicha nota se obtiene de la siguiente forma:
+		 * 55% del promedio de sus 3 calificaciones parciales.
+		 * 30% de la calificación del examen final.
+		 * 15% de la calificación de un trabajo final.
+		 *------------------------------------------------*/
+
 		Scanner teclado = new Scanner(System.in);
 		// EJERCICIO 21
 				
-				 float nota1, nota2, nota3, notaP, notaE, notaT, notaF;
+				 float nota1, nota2, nota3, notaParcial, notaExamen, notaTotal, notaFinal;
 				 
 				 System.out.println("Notas en %");
 				 System.out.println("Ingrese la nota del parcial 1");
@@ -17,22 +26,22 @@ public class Ejercicio21 {
 				 System.out.println("Ingrese la nota del parcial 3");
 				 nota3=teclado.nextFloat();
 				 
-				 notaP=(nota1+nota2+nota3)/3; 
-				 notaP=(float) (notaP*0.55);
+				 notaParcial=(nota1+nota2+nota3)/3; 
+				 notaParcial=(float) (notaParcial*0.55);
 				 
 				 System.out.println("Ingrese la nota del examen final");
-				 notaE=teclado.nextFloat();
+				 notaExamen=teclado.nextFloat();
 				 
-				 notaE=(float) (notaE*0.3);
+				 notaExamen=(float) (notaExamen*0.3);
 				 
 				 System.out.println("Ingrese la nota del trabajo"); 
-				 notaT=teclado.nextFloat();
+				 notaTotal=teclado.nextFloat();
 				 
-				 notaT=(float) (notaT*0.15);
+				 notaTotal=(float) (notaTotal*0.15);
 				 
-				 notaF=notaP+notaE+notaT;
+				 notaFinal=notaParcial+notaExamen+notaTotal;
 				 
-				 System.out.println("La nota final es "+notaF);
+				 System.out.println("La nota final es "+notaFinal);
 				 
 
 	}

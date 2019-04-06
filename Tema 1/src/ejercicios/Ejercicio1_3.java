@@ -1,19 +1,17 @@
 package ejercicios;
 
-import java.util.Scanner;
-
-public class Ejercicio3 {
+public class Ejercicio1_3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		Scanner teclado = new Scanner(System.in);
 		
 		// EJERCICIO 3
-				
-				byte n1=1,n2=2,n3=3; System.out.println(n1+","+n2+","+n3);
+		/*------------------------------------------------
+		 * Declarar una variable de cada tipo de datos,
+		 * asignar valores a dichas variables 
+		 * y visualizar su contenido separado por comas.
+		 *------------------------------------------------*/				
+		byte n1=1,n2=2,n3=3;
+		System.out.println(n1+","+n2+","+n3);
 				 
-
 	}
-
 }

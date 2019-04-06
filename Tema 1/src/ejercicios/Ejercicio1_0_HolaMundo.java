@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class HolaMundo {
+public class Ejercicio1_0_HolaMundo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
