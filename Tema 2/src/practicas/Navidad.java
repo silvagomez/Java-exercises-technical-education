@@ -15,17 +15,17 @@ public class Navidad {
 		System.out.println("Ingrese el día");
 		dia=teclado.nextByte();
 		
-			if(mes==12){
-				if(dia==25) {
-					System.out.println("Feliz Navidad");
-				}
-				else {
-					System.out.println("No es navidad");
-				}
+		if(mes==12){
+			if(dia==25) {
+				System.out.println("Feliz Navidad");
 			}
 			else {
 				System.out.println("No es navidad");
 			}
+		}
+		else {
+			System.out.println("No es navidad");
+		}
 	}
 
 }

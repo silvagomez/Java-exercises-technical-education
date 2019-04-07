@@ -12,7 +12,7 @@ public class Sueldo {
 		System.out.println("Ingrese su sueldo");
 		sueldo=teclado.nextFloat();
 		
-		/*if(sueldo<2000) {
+		if(sueldo<2000) {
 			System.out.println("Ingrese su antiguedad en la empresa");
 			ant=teclado.nextInt();
 			if(ant>=10) {
@@ -24,12 +24,6 @@ public class Sueldo {
 		}
 		else {
 			System.out.println("Su sueldo final es " +(sueldoFinal=sueldo));
-		}*/
-		
-		if(sueldo<200) {
-			System.out.println("Ingrese su antiguedad en la empresa");
-			ant=teclado.nextInt();
-					//if(ant>=10)
 		}
 
 	}

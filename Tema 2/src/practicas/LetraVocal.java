@@ -14,12 +14,13 @@ public class LetraVocal {
 		System.out.println("Ingrese una letra");
 		car=teclado.next().charAt(0);
 		
-			/*if(car=='a'|| car=='e'|| car=='i' || car=='o' || car=='u') {
-				System.out.println("La letra es una vocal");
-			}
-			else {
-				System.out.println("La letra no es una vocal");
-			}*/
+		//VERSIÓN IF
+		/*if(car=='a'|| car=='e'|| car=='i' || car=='o' || car=='u') {
+			System.out.println("La letra es una vocal");
+		}
+		else {
+			System.out.println("La letra no es una vocal");
+		}*/
 			
 		
 		if(car=='a') {
@@ -47,8 +48,7 @@ public class LetraVocal {
 						}
 					}
 				}
-			}
-		
+			}	
 		
 	}
 
