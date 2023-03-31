@@ -20,8 +20,8 @@ public class Ex119_operators {
 
         System.out.println("########################");
         System.out.println("Assignment operators");
-        System.out.println("x = " + (x=24));
-        System.out.println("y = " + (y=9));
+        System.out.println("x = " + (x = 24));
+        System.out.println("y = " + (y = 9));
         System.out.println("x += y is the same as x = x + 9");
         System.out.println("x -= y is the same as x = x - 9");
         System.out.println("x *= y is the same as x = x * 9");

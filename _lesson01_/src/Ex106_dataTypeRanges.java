@@ -9,7 +9,6 @@ public class Ex106_dataTypeRanges {
     //short n3 = 32768; //Limit = 32767
     public static void main(String[] args) {
 
-
         System.out.print("error java: integer number too large");
     }
 }

@@ -6,8 +6,8 @@ public class Ex107_varOneLine {
      *------------------------------------------------*/
     public static void main(String[] args) {
 
-        byte n1=1, n2=2, n3=3;
+        byte n1 = 1, n2 = 2, n3 = 3;
 
-        System.out.print(n1+" "+n2+" "+n3);
+        System.out.print(n1 + " " + n2 + " " + n3);
     }
 }

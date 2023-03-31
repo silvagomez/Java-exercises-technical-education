@@ -10,7 +10,7 @@ public class Ex121_finalGrade {
      * 15% of the grade of a final paper.
      *------------------------------------------------*/
     public static void main(String[] args) {
-        
+
         Scanner keyboard = new Scanner(System.in);
         float grade1, grade2, grade3, gradesAverages, gradeExam, gradePaper, gradeFinal;
 
@@ -23,17 +23,17 @@ public class Ex121_finalGrade {
         grade3 = keyboard.nextFloat();
 
         gradesAverages = (grade1 + grade2 + grade3) / 3;
-        gradesAverages = (float) (gradesAverages*0.55);
+        gradesAverages = (float) (gradesAverages * 0.55);
 
         System.out.println("Enter grade of final exam:");
-        gradeExam=keyboard.nextFloat();
-        gradeExam=(float) (gradeExam*0.3);
+        gradeExam = keyboard.nextFloat();
+        gradeExam = (float) (gradeExam * 0.3);
 
         System.out.println("Enter grade of paper");
-        gradePaper=keyboard.nextFloat();
-        gradePaper=(float) (gradePaper*0.15);
-        gradeFinal=gradesAverages+gradeExam+gradePaper;
+        gradePaper = keyboard.nextFloat();
+        gradePaper = (float) (gradePaper * 0.15);
+        gradeFinal = gradesAverages + gradeExam + gradePaper;
 
-        System.out.print("The final grade is "+gradeFinal);
+        System.out.print("The final grade is " + gradeFinal);
     }
 }

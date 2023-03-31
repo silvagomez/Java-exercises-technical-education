@@ -11,7 +11,7 @@ public class Ex113_clothes {
 
         Scanner keyboard = new Scanner(System.in);
         short pantPrice = 30, tshirtPrice = 11,
-        pantQty, tshirtQty, pantTotal, tshirtTotal;
+                pantQty, tshirtQty, pantTotal, tshirtTotal;
 
         System.out.println("Enter the pants quatity you want to buy:");
         pantQty = keyboard.nextShort();

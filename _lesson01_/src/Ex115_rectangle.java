@@ -14,7 +14,7 @@ public class Ex115_rectangle {
         size1 = keyboard.nextInt();
         System.out.println("Enter the other size:");
         size2 = keyboard.nextInt();
-        perimeter = (size1*2) + (size2*2);
+        perimeter = (size1 * 2) + (size2 * 2);
         area = size1 * size2;
         System.out.println("The rectangle perimeter is " + perimeter);
         System.out.print("The rectangle area is " + area);

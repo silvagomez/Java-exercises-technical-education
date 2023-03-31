@@ -12,14 +12,14 @@ public class Ex110_xy {
      *------------------------------------------------*/
     public static void main(String[] args) {
 
-        int x=6, y=4;
+        int x = 6, y = 4;
 
         System.out.println("x=" + x);
         System.out.println("y=" + y);
-        System.out.println("x-y=" + (x-y));
-        System.out.println("x*y=" + (x*y));
-        System.out.println("x/y=" + (x/y));
-        System.out.print("x%y=" + (x%y));
+        System.out.println("x-y=" + (x - y));
+        System.out.println("x*y=" + (x * y));
+        System.out.println("x/y=" + (x / y));
+        System.out.print("x%y=" + (x % y));
 
     }
 }

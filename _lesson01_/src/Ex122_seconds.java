@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ex122_seconds {
     // EXERCISE 22
     /*------------------------------------------------
-     * Program that converts an integer number of seconds 
+     * Program that converts an integer number of seconds
      * into hours, minutes and seconds.
      *------------------------------------------------*/
     public static void main(String[] args) {
